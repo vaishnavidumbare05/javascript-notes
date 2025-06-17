@@ -30,3 +30,5 @@ newDate.toLocaleString('default', {
     
 })
 
+//for example
+console.log(`Today's Date is ${new Date().toDateString()} and time is ${new Date().toLocaleTimeString()}`);
